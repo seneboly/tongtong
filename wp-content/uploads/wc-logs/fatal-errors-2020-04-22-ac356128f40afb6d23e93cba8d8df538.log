@@ -1,0 +1,8 @@
+2020-04-22T22:20:55+00:00 CRITICAL Maximum execution time of 30 seconds exceeded dans C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\functions\template-tags\general.php à la ligne 9
+
+2020-04-22T22:21:30+00:00 CRITICAL Maximum execution time of 30 seconds exceeded dans C:\xampp\htdocs\wordpress\wp-content\plugins\unyson\framework\core\components\theme.php à la ligne 7
+
+2020-04-22T23:50:42+00:00 CRITICAL Maximum execution time of 30 seconds exceeded dans C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Privacy.php à la ligne 6
+
+2020-04-22T23:51:53+00:00 CRITICAL Maximum execution time of 30 seconds exceeded dans C:\xampp\htdocs\wordpress\wp-includes\Requests\Transport\cURL.php à la ligne 163
+

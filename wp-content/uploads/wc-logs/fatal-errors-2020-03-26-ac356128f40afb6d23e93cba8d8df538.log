@@ -1,0 +1,13 @@
+2020-03-26T18:26:25+00:00 CRITICAL Uncaught Error: Call to undefined function mb_strripos() in /var/www/wp-content/plugins/lt-ext/inc/functions.php:157
+Stack trace:
+#0 /var/www/wp-content/plugins/lt-ext/shortcodes/menu/view.php(108): ltx_cut_text('In sagittis mau...', '70', '')
+#1 /var/www/wp-content/plugins/lt-ext/shortcodes/shortcodes.php(826): include('/var/www/wp-con...')
+#2 /var/www/wp-content/plugins/lt-ext/shortcodes/menu/menu.php(78): like_sc_output('menu', Array, '')
+#3 /var/www/wp-includes/shortcodes.php(325): ltx_sc_menu(Array, '', 'ltx_sc_menu')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /var/www/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(like_s...', 'do_shortcode_ta...', '<p>[vc_row full...')
+#6 /var/www/wp-includes/class-wp-hook.php(288): do_shortcode('<p>[vc_row full...')
+#7 /var/www/wp-includes/plugin.php(206): WP_Hook->apply_filters('<p>[vc_row full...', Array)
+#8 /var/www/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1550): apply_filters('the_content', '[vc_row full_wi...')
+ dans /var/www/wp-content/plugins/lt-ext/inc/functions.php à la ligne 157
+
